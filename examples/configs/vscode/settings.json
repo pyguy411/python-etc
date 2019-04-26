@@ -1,0 +1,24 @@
+{
+  "editor.rulers": [
+      79,
+      119
+  ],
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "explorer.confirmDelete": false,
+  "files.exclude": {
+      "**/.git": true,
+      "*.code-*": true,
+      "*.sublime-*": true,
+      ".idea": true
+  },
+  "window.zoomLevel": 0,
+  "[python]": {
+      "venvPath": "~/Desktop/venvs",
+      "jediEnabled": false,
+      "editor.tabSize": 4  
+  },
+  "[markdown]": {
+      "editor.tabSize": 4
+  }
+}
