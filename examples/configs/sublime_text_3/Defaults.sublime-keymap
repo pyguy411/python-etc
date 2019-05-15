@@ -1,0 +1,38 @@
+[
+  {
+    "description": "Swaps the layers backwards.",
+    "keys": ["alt+shift+b"], "command": "better_bookmarks",
+    "args": {"direction": "prev", "subcommand": "layer_swap"}
+  },
+  {
+    "description": "Swaps the layers forwards.",
+    "keys": ["alt+shift+f"], "command": "better_bookmarks",
+    "args": {"direction": "next", "subcommand": "layer_swap"}
+  },
+  {
+    "description": "Moves the viewport to the previous bookmark in the current visible layer.",
+    "keys": ["alt+shift+j"], "command": "better_bookmarks",
+    "args": {"subcommand": "cycle_mark", "direction": "prev"}
+  },
+  {
+    "description": "Moves the viewport to the next bookmark in the current visible layer.",
+    "keys": ["alt+shift+l"], "command": "better_bookmarks",
+    "args": {"subcommand": "cycle_mark", "direction": "next"}
+  },
+  {
+    "description": "Adds a single bookmark to the current visible layer.",
+    "keys": ["alt+shift+k"], "command": "better_bookmarks",
+    "args": {"subcommand": "mark_line"}
+  },
+  {
+    "description": "Removes all marks in the current visible layer.",
+    "keys": ["alt+shift+r"], "command": "better_bookmarks",
+    "args": {"subcommand": "clear_marks"}
+  },
+  {
+    "description": "Removes all marks from ALL layers.",
+    "keys": ["alt+shift+a"], "command": "better_bookmarks",
+    "args": {"subcommand": "clear_all"}
+  }
+
+]

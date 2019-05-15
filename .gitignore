@@ -101,9 +101,9 @@ ENV/
 .mypy_cache/
 
 .idea
-*.sublime*
-.vscode
-*.code-*
+../*.sublime*
+../.vscode
+../*.code-*
 
 # stuff to bring in later when ready to be commited
 examples/django/kidsay

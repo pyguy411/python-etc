@@ -1,0 +1,92 @@
+{
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.gz",
+		"*.tar",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+	"default_line_ending": "unix",
+	"draw_minimap_border": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.tags",
+		"*.tags_sorted_by_file",
+		"*.sqlite",
+		"*.sublime-*",
+		"*.code-workspace"
+	],
+	"folder_exclude_patterns":
+	[
+		".git",
+		".idea",
+		".vscode",
+		".mypy_cache",
+		"__pycache__"
+	],
+	"font_size": 10,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Anaconda",
+		"ASP",
+		"AutoDocstring",
+		"Color Highlighter",
+		"CTags",
+		"FileIcons",
+		"Git Formats",
+		"LiveReload",
+		"MarkdownPreview",
+		"SublimeCodeIntel",
+		"Theme - Soda SolarizedDark",
+		"Vintage"
+	],
+	"index_exclude_patterns":
+	[
+		"*.log,",
+		"*.gz",
+		"*.tar",
+		"*.zip"
+	],
+	"rulers":
+	[
+		79,
+		100
+	],
+	"tab_completion": false,
+	"tab_size": 2,
+	"theme": "Flatland Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}
