@@ -1,6 +1,13 @@
 # python-etc
 
-# Mostly python3 and then some other tech tossed in
+Hi :wave: , this site is mostly python3 and then some other tech tossed in
+
+most of this information is easily found on the internet, but the code and 
+opinions are completely my own.
+
+much of the code is dated, the git log will not provide any real insight into
+many of the files that exist.
+
 ## little goodies of code for
 - proof of concept, 
 - demo purposes 
@@ -8,10 +15,13 @@
 
 examples of:
 - django projects
-- google app engine projects
-- scripts
-- pypi
-- editor configs and opinions
+    - superPOC is new and should contain modern things.
+- flask
+    - (git_profile_api)[examples/flask/git_profile_api/README.md]
+- google app engine projects (very old)
+- scripts - often very old
+- pypi - old mixed with new
+- editor configs and opinions - all modern, or will be added soon (again modern)
     - vscode
     - sublime text 3
     - pycharm
