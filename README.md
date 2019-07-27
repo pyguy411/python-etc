@@ -17,7 +17,7 @@ examples of:
 - django projects
     - superPOC is new and should contain modern things.
 - flask
-    - (git_profile_api)[examples/flask/git_profile_api/README.md]
+    - [git_profile_api](examples/flask/git_profile_api/README.md)
 - google app engine projects (very old)
 - scripts - often very old
 - pypi - old mixed with new
