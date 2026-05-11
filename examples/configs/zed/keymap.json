@@ -1,0 +1,32 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "vim_mode == normal || vim_mode == visual",
+    "bindings": {
+      "ctrl-j": "workspace::ToggleBottomDock", // conflicts with Zed close bottom panel
+      // "ctrl-t": null, // conflicts with Zed "project_symbols::Toggle
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-shift-y": "workspace::ToggleVimMode",
+      // "ctrl-alt-t": "project_symbols::Toggle",  ctrl-t already works (sometimes), g shift-s works with Vim
+      "ctrl-k b": "workspace::ToggleLeftDock",
+      "ctrl-k escape": "workspace::CloseAllDocks",
+      "alt-g": ["task::Spawn", { "task_name": "echo current file path" }],
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-shift-f10": "editor::SpawnNearestTask",
+    },
+  },
+]
